@@ -90,6 +90,20 @@ Test the site:
 ```bash
 curl http://57.154.184.152
 ```
+# for rsync use
+## rsync is a powerful and widely-used command-line utility for efficiently transferring and synchronizing files and directories between two locations.
+1. Install rsync
+```
+sudo apt install rsync 
+```
+2. Use rsync to copy your static files to the remote server.
+```
+rsync -avz /path/to/local/static_site/ azureuser@57.154.184.152:/var/www/static_site/
+```
+3. Verify the sync.
+```
+http://57.154.184.152
+```
 ---
 
 ##  Step 3: Create a Simple Webpage
