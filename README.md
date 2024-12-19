@@ -4,6 +4,8 @@
 ## Project URL  
 [project URL](https://roadmap.sh/projects/static-site-server)
 
+# ginx is a high-performance web server and reverse proxy server. It can also function as a load balancer, HTTP cache, and more.
+
 ## Step 1: Create a Remote Linux Server
 
 1. **Log in to Azure Portal**: Go to Azure Portal and sign in.
